@@ -1,0 +1,18 @@
+#include "resource.h"
+
+
+IDR_MENU MENU
+
+BEGIN
+
+    POPUP "&File"
+
+    BEGIN
+
+        MENUITEM "&New Map", IDM_NEW_MAP
+
+        MENUITEM "E&xit", IDM_FILE_EXIT
+
+    END
+
+END

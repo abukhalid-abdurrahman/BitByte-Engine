@@ -1,0 +1,29 @@
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\bin\Release\GameEngine_Project.exe.config
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\bin\Release\GameEngine_Project.exe
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\bin\Release\GameEngine_Project.pdb
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\bin\Release\WeifenLuo.WinFormsUI.Docking.dll
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\Faridun's Game Engine.csprojResolveAssemblyReference.cache
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.aboutWindow.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.Add3DModelForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.Animator_Animation_Browser_Dialog.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.audioSettingsForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.CompileForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.CreateNewProjectForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.ConsoleForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.GameEngine_Form.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.graphicsSettingsForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.inputSettingsForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.ObjectBrawserDialog.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.InspectorForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.openGLEditorSettingsForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.physicsSettingsForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.PlayerSettings.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.Properties.Resources.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.Script_ShaderBrowserDiolog.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.TextureBrowserDiolog.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.TexturingForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.TitleForm.resources
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\Faridun's Game Engine.csproj.GenerateResource.Cache
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.exe
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\obj\Release\GameEngine_Project.pdb
+C:\My Documents\Visual Studio 2012\Projects\Faridun's Game Engine\Faridun's Game Engine\bin\Release\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll

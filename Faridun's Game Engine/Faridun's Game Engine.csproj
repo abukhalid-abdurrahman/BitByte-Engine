@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8BB14C28-8E38-4EC7-9EB3-2CB398C3C10B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameEngine_Project</RootNamespace>
+    <AssemblyName>GameEngine_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>опубликовать\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GameEngine_Project.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\FARIDUN - FLESH - FAILS\Soft\NuGetPackages\DockPanelSuite.3.0.6\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2015">
+      <HintPath>D:\FARIDUN - FLESH - FAILS\Soft\NuGetPackages\DockPanelSuite.ThemeVS2015.3.0.6\lib\net40\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\DragHelper.cs" />
+    <Compile Include="Classes\VideoMode.cs" />
+    <Compile Include="Forms\About_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About_Form.Designer.cs">
+      <DependentUpon>About_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Add_3DModel_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Add_3DModel_Form.Designer.cs">
+      <DependentUpon>Add_3DModel_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Animator_Animation_Browser_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Animator_Animation_Browser_Dialog.Designer.cs">
+      <DependentUpon>Animator_Animation_Browser_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Audio_Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Audio_Settings_Form.Designer.cs">
+      <DependentUpon>Audio_Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Compile_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Compile_Form.Designer.cs">
+      <DependentUpon>Compile_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Components_Form.cs" />
+    <Compile Include="Forms\Create_New_Project_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Create_New_Project_Form.Designer.cs">
+      <DependentUpon>Create_New_Project_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Console_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Console_Form.Designer.cs">
+      <DependentUpon>Console_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Faridun%27s_Game_Engine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Faridun%27s_Game_Engine.Designer.cs">
+      <DependentUpon>Faridun%27s_Game_Engine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Graphics_Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Graphics_Settings_Form.Designer.cs">
+      <DependentUpon>Graphics_Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Input_Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Input_Settings_Form.Designer.cs">
+      <DependentUpon>Input_Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Object_Brawser_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Object_Brawser_Dialog.Designer.cs">
+      <DependentUpon>Object_Brawser_Dialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inspector_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inspector_Form.Designer.cs">
+      <DependentUpon>Inspector_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OpenGL_Editor_Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OpenGL_Editor_Settings_Form.Designer.cs">
+      <DependentUpon>OpenGL_Editor_Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Physics_Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Physics_Settings_Form.Designer.cs">
+      <DependentUpon>Physics_Settings_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlayerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlayerSettings.Designer.cs">
+      <DependentUpon>PlayerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Script_Shader_Browser_Diolog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Script_Shader_Browser_Diolog.Designer.cs">
+      <DependentUpon>Script_Shader_Browser_Diolog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Texture_Browser_Diolog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Texture_Browser_Diolog.Designer.cs">
+      <DependentUpon>Texture_Browser_Diolog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Texturing_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Texturing_Form.Designer.cs">
+      <DependentUpon>Texturing_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Title_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Title_Form.Designer.cs">
+      <DependentUpon>Title_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\About_Form.resx">
+      <DependentUpon>About_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Add_3DModel_Form.resx">
+      <DependentUpon>Add_3DModel_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Animator_Animation_Browser_Dialog.resx">
+      <DependentUpon>Animator_Animation_Browser_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Audio_Settings_Form.resx">
+      <DependentUpon>Audio_Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Compile_Form.resx">
+      <DependentUpon>Compile_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Create_New_Project_Form.resx">
+      <DependentUpon>Create_New_Project_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Console_Form.resx">
+      <DependentUpon>Console_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Faridun%27s_Game_Engine.resx">
+      <DependentUpon>Faridun%27s_Game_Engine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Graphics_Settings_Form.resx">
+      <DependentUpon>Graphics_Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Input_Settings_Form.resx">
+      <DependentUpon>Input_Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Object_Brawser_Dialog.resx">
+      <DependentUpon>Object_Brawser_Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inspector_Form.resx">
+      <DependentUpon>Inspector_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OpenGL_Editor_Settings_Form.resx">
+      <DependentUpon>OpenGL_Editor_Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Physics_Settings_Form.resx">
+      <DependentUpon>Physics_Settings_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlayerSettings.resx">
+      <DependentUpon>PlayerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\Script_Shader_Browser_Diolog.resx">
+      <DependentUpon>Script_Shader_Browser_Diolog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Texture_Browser_Diolog.resx">
+      <DependentUpon>Texture_Browser_Diolog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Texturing_Form.resx">
+      <DependentUpon>Texturing_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Title_Form.resx">
+      <DependentUpon>Title_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\camera-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\entity_object_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\transform_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Actions-document-save-all-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Actions-document-save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Filesystems-folder-open-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Action-file-new-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\audio-icon.png" />
+    <Content Include="Images\camera.png" />
+    <Content Include="Images\CS-File.png" />
+    <Content Include="Images\game-engine-icon.ico" />
+    <Content Include="Images\game-engine-icon.png" />
+    <Content Include="Images\grid-icon.png" />
+    <Content Include="Images\Light-Bulb-icon.png" />
+    <Content Include="Images\madySoftwareTitle.png" />
+    <Content Include="Images\new-folder-icon.png" />
+    <Content Include="Images\Objects_Iamge.png" />
+    <Content Include="Images\particle-system-icon.png" />
+    <Content Include="Images\Prefab_Image.png" />
+    <Content Include="Images\Procedural_Skybox_Image.png" />
+    <Content Include="Images\Shader-File.png" />
+    <Content Include="Images\Skybox_Image.png" />
+    <Content Include="Images\sun-icon.png" />
+    <Content Include="Images\sun_image.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

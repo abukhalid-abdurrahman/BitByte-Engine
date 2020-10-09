@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1515741771 source:c:\my documents\visual studio 2012\projects\faridun's game engine\map builder\resource.rc
+	"resource.h"
+
+1515741792 c:\my documents\visual studio 2012\projects\faridun's game engine\map builder\resource.h
+
+1524578442 source:c:\my documents\visual studio 2012\projects\faridun's game engine\map builder\main.cpp
+	"stdafx.h"
+	"resource.h"
+
+1515742026 source:c:\my documents\visual studio 2012\projects\faridun's game engine\map builder\stdafx.cpp
+	"stdafx.h"
+
+1515742052 c:\my documents\visual studio 2012\projects\faridun's game engine\map builder\stdafx.h
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
